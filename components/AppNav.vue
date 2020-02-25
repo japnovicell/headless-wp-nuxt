@@ -3,11 +3,12 @@
     <ul>
       <li>
         <nuxt-link exact to="/">
-          <app-icon></app-icon>BlogName
+          #fo20dk
+
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/about">Aarhus 28. maj 2020</nuxt-link>
       </li>
     </ul>
   </div>
