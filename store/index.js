@@ -50,7 +50,7 @@ export const actions = {
 
     try {
       let tags = await fetch(
-        `${siteURL}/wp-json/wp/v2/tags?page=1&per_page=40&include=${allTags}`
+        `https://forretningonline.dk/wp-json/wp/v2/pages?_embed`
       ).then(res => res.json())
 
       tags = tags.map(({ id, name }) => ({
