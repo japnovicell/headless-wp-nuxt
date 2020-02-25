@@ -1,4 +1,4 @@
-const siteURL = "https://css-tricks.com"
+const siteURL = "https://forretningonline.dk/"
 
 export const state = () => ({
   posts: [],
@@ -50,7 +50,7 @@ export const actions = {
 
     try {
       let tags = await fetch(
-        `https://forretningonline.dk/wp-json/wp/v2/pages?_embed`
+        `https://forretningonline.dk/wp-json/wp/v2/pages?_embed{tags}`
       ).then(res => res.json())
 
       tags = tags.map(({ id, name }) => ({
