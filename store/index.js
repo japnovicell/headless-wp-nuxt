@@ -1,4 +1,4 @@
-const siteURL = "https://forretningonline.dk/"
+const siteURL = "https://fo17.staging.wpengine.com"
 
 export const state = () => ({
   posts: [],
