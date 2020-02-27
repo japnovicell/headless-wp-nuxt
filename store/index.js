@@ -1,5 +1,5 @@
 const siteURL = "https://fo17.staging.wpengine.com"
-
+ 
 export const state = () => ({
   posts: [],
   tags: []
