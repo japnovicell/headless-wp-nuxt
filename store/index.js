@@ -20,7 +20,7 @@ export const actions = {
 
     try {
       let posts = await fetch(
-           `https://http://forretningonline.dk//wp-json/wp/v2/pages?_embed`
+           `http://forretningonline.dk/wp-json/wp/v2/pages?_embed`
         
       ).then(res => res.json())
 
