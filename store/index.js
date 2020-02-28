@@ -20,7 +20,7 @@ export const actions = {
 
     try {
       let posts = await fetch(
-           `https://fo17.staging.wpengine.com/wp-json/acf/v2`
+           `https://fo17.staging.wpengine.com/wp-json/wp/v2/pages`
         
       ).then(res => res.json())
 
