@@ -20,7 +20,7 @@ export const actions = {
 
     try {
       let posts = await fetch(
-           `http://forretningonline.dk/wp-json/wp/v2/pages?_embed`
+           `http://fo17.staging.wpengine.com/wp-json/acf/v2/pages?_embed`
         
       ).then(res => res.json())
 
